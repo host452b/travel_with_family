@@ -2,11 +2,20 @@
 
 全球景区 & 乐园度假酒店多维评分数据库。**1,072 条记录 · 50+ 国家 · 34 列量化指标 · 多源校准**
 
-## 可视化报告
+## 可视化报告 (点击直接查看)
 
-点击 `.ipynb` 文件直接查看带**红绿色阶**的完整数据表：
+| Notebook | 内容 |
+|----------|------|
+| [00_数据总览.ipynb](00_数据总览.ipynb) | 数据集一览 · 指标说明 · 权重体系 |
+| [01_中国5A景区排行.ipynb](01_中国5A景区排行.ipynb) | 综合 Top 25 · 亲子 · 老人 · 性价比 · 各省排名 |
+| [02_国际景区排行.ipynb](02_国际景区排行.ipynb) | 华人安全 Top 20 · 浪漫 · 亲子 · 性价比 · 各国排名 |
+| [03_乐园度假酒店排行.ipynb](03_乐园度假酒店排行.ipynb) | 主题乐园 · 度假酒店 · 低龄儿童推荐 · 性价比 |
 
-| 完整数据 | 记录 |
+所有表格带 **红-绿色阶**：低分红色 → 中等黄色 → 高分绿色。方差列反色：绿色=稳定可信，红色=两极分化。
+
+### 完整数据表 (每条记录、每列数据原封不动)
+
+| Notebook | 记录 |
 |----------|------|
 | [china_5a_scenic_spots.ipynb](china_5a_scenic_spots.ipynb) | 358 条 · 中国 5A 景区 |
 | [asia_oceania_scenic_spots.ipynb](asia_oceania_scenic_spots.ipynb) | 340 条 · 亚洲/大洋洲景区 |
@@ -15,12 +24,27 @@
 | [asia_resorts_parks.ipynb](asia_resorts_parks.ipynb) | 63 条 · 亚洲乐园/度假 |
 | [europe_global_resorts_parks.ipynb](europe_global_resorts_parks.ipynb) | 50 条 · 欧洲/全球乐园 |
 
-| 排行榜 | 内容 |
-|--------|------|
-| [00_数据总览.ipynb](00_数据总览.ipynb) | 数据集总览 · 指标说明 · 数据来源 |
-| [01_中国5A景区排行.ipynb](01_中国5A景区排行.ipynb) | 综合 · 亲子 · 老人 · 性价比 · 各省 |
-| [02_国际景区排行.ipynb](02_国际景区排行.ipynb) | 华人安全 · 浪漫 · 亲子 · 各国 |
-| [03_乐园度假酒店排行.ipynb](03_乐园度假酒店排行.ipynb) | 主题乐园 · 度假酒店 · 低龄儿童 |
+## 数据文件
+
+### 景区
+
+| 文件 | 记录 | 覆盖 |
+|------|------|------|
+| `china_5a_scenic_spots.csv` | 358 | 中国 31 省 5A 景区 |
+| `asia_oceania_scenic_spots.csv` | 340 | 亚洲/大洋洲/中亚/东欧 41+ 国 |
+| `europe_scenic_spots.csv` | 173 | 欧洲 40 国 8 大区域 |
+
+### 乐园 & 度假酒店
+
+| 文件 | 记录 | 覆盖 |
+|------|------|------|
+| `china_resorts_parks.csv` | 88 | 中国 20+ 城市（三亚/广州/上海/北京等） |
+| `asia_resorts_parks.csv` | 63 | 亚洲 10 国（日本/泰国/新加坡/马来等） |
+| `europe_global_resorts_parks.csv` | 50 | 欧洲/澳新/中东 15+ 国 |
+
+### 归档
+
+`archive/` — 原始源文件（14 个）。重复文件标 `[duplicate]`，被替代版本标 `[superseded]`。
 
 ## 量化指标 (0-10 分)
 
