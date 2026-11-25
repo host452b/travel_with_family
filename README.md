@@ -1,6 +1,6 @@
 # Travel With Family
 
-全球景区 & 乐园度假酒店多维评分数据库。**1,072 条记录 · 50+ 国家 · 34 列量化指标 · 多源校准**
+全球景区 & 乐园度假酒店多维评分数据库。**1,091 条记录 · 50+ 国家 · 34 列量化指标 · 多源校准**
 
 ## 可视化报告 (点击直接查看)
 
@@ -17,12 +17,12 @@
 
 | Notebook | 记录 |
 |----------|------|
-| [china_5a_scenic_spots.ipynb](china_5a_scenic_spots.ipynb) | 358 条 · 中国 5A 景区 |
+| [china_5a_scenic_spots.ipynb](china_5a_scenic_spots.ipynb) | 371 条 · 中国 5A 景区 |
 | [asia_oceania_scenic_spots.ipynb](asia_oceania_scenic_spots.ipynb) | 340 条 · 亚洲/大洋洲景区 |
 | [europe_scenic_spots.ipynb](europe_scenic_spots.ipynb) | 173 条 · 欧洲 40 国景区 |
-| [china_resorts_parks.ipynb](china_resorts_parks.ipynb) | 88 条 · 国内乐园/度假 |
-| [asia_resorts_parks.ipynb](asia_resorts_parks.ipynb) | 63 条 · 亚洲乐园/度假 |
-| [europe_global_resorts_parks.ipynb](europe_global_resorts_parks.ipynb) | 50 条 · 欧洲/全球乐园 |
+| [china_resorts_parks.ipynb](china_resorts_parks.ipynb) | 91 条 · 国内乐园/度假 |
+| [asia_resorts_parks.ipynb](asia_resorts_parks.ipynb) | 65 条 · 亚洲乐园/度假 |
+| [europe_global_resorts_parks.ipynb](europe_global_resorts_parks.ipynb) | 51 条 · 欧洲/全球乐园 |
 
 ## 数据文件
 
@@ -30,7 +30,7 @@
 
 | 文件 | 记录 | 覆盖 |
 |------|------|------|
-| `china_5a_scenic_spots.csv` | 358 | 中国 31 省 5A 景区 |
+| `china_5a_scenic_spots.csv` | 371 | 中国 31 省 5A 景区 |
 | `asia_oceania_scenic_spots.csv` | 340 | 亚洲/大洋洲/中亚/东欧 41+ 国 |
 | `europe_scenic_spots.csv` | 173 | 欧洲 40 国 8 大区域 |
 
@@ -38,9 +38,9 @@
 
 | 文件 | 记录 | 覆盖 |
 |------|------|------|
-| `china_resorts_parks.csv` | 88 | 中国 20+ 城市（三亚/广州/上海/北京等） |
-| `asia_resorts_parks.csv` | 63 | 亚洲 10 国（日本/泰国/新加坡/马来等） |
-| `europe_global_resorts_parks.csv` | 50 | 欧洲/澳新/中东 15+ 国 |
+| `china_resorts_parks.csv` | 91 | 中国 20+ 城市（三亚/广州/上海/北京等） |
+| `asia_resorts_parks.csv` | 65 | 亚洲 10 国（日本/泰国/新加坡/马来等） |
+| `europe_global_resorts_parks.csv` | 51 | 欧洲/澳新/中东 15+ 国 |
 
 ### 归档
 
